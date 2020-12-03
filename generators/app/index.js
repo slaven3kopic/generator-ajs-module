@@ -3,8 +3,6 @@ const fs = require('fs');
 const yosay = require('yosay');
 
 module.exports = yeoman.extend({
-    //Configurations will be loaded here.
-    //Ask for user input
     prompting: function() {
         console.log(yosay('Welcome to AngularJS module generator'));
         var done = this.async();
