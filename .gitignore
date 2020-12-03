@@ -1,0 +1,5 @@
+node_modules
+.vscode
+generators/app/dist
+test
+package-lock.json
