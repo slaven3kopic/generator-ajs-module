@@ -6,6 +6,7 @@ export default function <%= name %>(): IDirective {
     return {
         restrict: 'A',
         controller: <%= name %>Ctrl,
-        controllerAs: '<%= nameLC %>Ctrl'
+        controllerAs: '<%= nameLC %>Ctrl',
+        templateUrl: './<%= name %>.html'
     };
 }
